@@ -1,0 +1,6 @@
+applications:
+  - name: hellospringboot-pr
+    buildpacks:
+      - java_buildpack
+    path: target/hellospringboot-1.0.jar
+    services:
